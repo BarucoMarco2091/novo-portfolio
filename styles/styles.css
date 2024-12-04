@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 #experience-container,
 .new-card-grid {
   display: grid;
@@ -292,6 +293,42 @@ footer a:hover i {
     max-width: 100%;
   }
 }
+.btn-whatsapp {
+  position: fixed;
+  bottom: 15dvh;
+  right: 10dvh;
+  z-index: 5;
+}
+
+.btn-whatsapp img {
+  max-width: 10dvh;
+  transition: transform 0.5s;
+}
+
+.btn-whatsapp img:hover {
+  transform: scale(1.2);
+}
+
+.btn-whatsapp .tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  width: 120px;
+  top: 8px;
+  left: -144px;
+  padding: 6px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #232224;
+  color: #FFF;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.btn-whatsapp:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
 * {
   margin: 0;
   padding: 0;

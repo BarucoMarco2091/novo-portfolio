@@ -2,51 +2,58 @@ const projectsData = [
     {
         image: "assets/images/comingsoonpage.jpg",
         languages: ["HTML", "CSS", "JavaScript"],
-        description: "BASE APPAREL COMING SOON PAGE",
+        title: "BASE APPAREL COMING SOON PAGE",
         site: "https://barucomarco2091.github.io/coming-soon-page/",
         code: "https://github.com/BarucoMarco2091/coming-soon-page"
     },
     {
         image: "assets/images/productlistwithcart.jpg",
         languages: ["HTML", "CSS", "JavaScript"],
-        description: "PRODUCT LIST WITH CART",
+        title: "PRODUCT LIST WITH CART",
         site: "https://barucomarco2091.github.io/Product-list-with-cart/",
         code: "https://github.com/BarucoMarco2091/Product-list-with-cart"
     },
     {
         image: "assets/images/sunnyside.jpg",
         languages: ["HTML", "CSS"],
-        description: "AGENCY LANDING PAGE",
+        title: "AGENCY LANDING PAGE",
         site: "https://barucomarco2091.github.io/sunnysidenew/",
         code: "https://github.com/BarucoMarco2091/sunnysidenew"
     },
     {
         image: "assets/images/clipboard.jpg",
         languages: ["HTML", "SCSS", "JavaScript"],
-        description: "CLIPBOARD LANDING PAGE MASTER",
+        title: "CLIPBOARD LANDING PAGE MASTER",
         site: "https://barucomarco2091.github.io/clipboard-landing-page/",
         code: "https://github.com/BarucoMarco2091/clipboard-landing-page",
     },
     {
         image: "assets/images/insure.jpg",
         languages: ["HTML", "SCSS", "JavaScript"],
-        description: "INSURE LANDING PAGE MASTER",
+        title: "INSURE LANDING PAGE MASTER",
         site: "https://barucomarco2091.github.io/insure-landing-page-master/",
         code: "https://github.com/BarucoMarco2091/insure-landing-page-master",
     },
     {
         image: "assets/images/pizzaria.jpg",
         languages: ["HTML", "SCSS", "JavaScript"],
-        description: "Pizzaria Mauá",
+        title: "Pizzaria Mauá",
         site: "https://pizzaria-umber.vercel.app/",
         code: "https://github.com/BarucoMarco2091/pizzaria",
     },
     {
         image: "assets/images/barbearia.jpg",
         languages: ["HTML", "SCSS", "JavaScript"],
-        description: "Dev Barber",
+        title: "Dev Barber",
         site: "https://dev-barber-livid.vercel.app/",
         code: "https://github.com/BarucoMarco2091/dev---barber",
+    },
+    {
+        image: "assets/images/artgallerywebsite.jpg",
+        languages: ["HTML", "SCSS"],
+        title: "Art Gallery Website",
+        site: "https://art-website-git-main-barucomarco2091s-projects.vercel.app/",
+        code: "https://github.com/BarucoMarco2091/art-website",
     },
 ];
 
@@ -104,9 +111,9 @@ function loadProjects() {
         card.innerHTML =
             `
         <div class="new-container">
-        <img class="card-img" src="${project.image}" alt="${project.description}" loading="lazy">
+        <img class="card-img" src="${project.image}" alt="${project.title}" loading="lazy">
         </div>
-        <h2 class="project-title">${project.description}</h2>
+        <h2 class="project-title">${project.title}</h2>
         <h2 class="card-description">${project.languages.join(',')}</h2>
         <a class="card-link active" href="${project.site}" target="_blank">VIEW PROJECT</a>
         <a class="card-link active" href="${project.code}" target="_blank">VIEW CODE</a>
