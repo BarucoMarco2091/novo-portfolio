@@ -11,10 +11,11 @@
   color: #fff;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 5dvh;
-  max-width: 1440px;
-  margin: 0 auto;
+  max-width: 1240px;
+  margin: auto;
+  margin-bottom: 5dvh;
 }
 .header-container p {
   font-size: 2rem;
@@ -27,11 +28,12 @@
   justify-content: space-between;
   gap: 3dvh;
 }
-.header-container .header-icons a {
+.header-container .header-icons i {
   color: #e5e7eb;
   font-size: 1.5rem;
+  transition: color 0.8s;
 }
-.header-container .header-icons a:hover i {
+.header-container .header-icons i:hover {
   color: rgb(78, 225, 160);
   animation: scaleUp 0.8s ease-in infinite;
 }
@@ -41,8 +43,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 5dvh;
-  margin-left: 5dvh;
-  margin-right: 5dvh;
+  max-width: 1240px;
+  margin: auto;
   padding-bottom: 15dvh;
   border-bottom: 0.4px solid #fff;
 }
@@ -65,6 +67,7 @@
   font-size: 1.5rem;
   cursor: pointer;
   text-decoration: none;
+  transition: color 0.8s;
 }
 .container .container-text a.active {
   border-bottom: 3px solid rgb(78, 225, 160);

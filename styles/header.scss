@@ -14,10 +14,11 @@
     color: $white;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 5dvh;
-    max-width: 1440px;
-    margin: 0 auto;
+    max-width: 1240px;
+    margin: auto;
+    margin-bottom: 5dvh;
 
     p {
         font-size: 2rem;
@@ -32,12 +33,13 @@
         justify-content: space-between;
         gap: 3dvh;
 
-        a {
+        i {
             color: $secondary;
             font-size: 1.5rem;
+            transition: color .8s;
         }
 
-        a:hover i {
+        i:hover {
             color: $green;
             animation: scaleUp 0.8s ease-in infinite;
         }
@@ -49,8 +51,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 5dvh;
-    margin-left: 5dvh;
-    margin-right: 5dvh;
+    max-width: 1240px;
+    margin: auto;
     padding-bottom: 15dvh;
     border-bottom: 0.4px solid $white;
 
@@ -75,6 +77,7 @@
             font-size: 1.5rem;
             cursor: pointer;
             text-decoration: none;
+            transition: color .8s;
         }
 
         a.active {

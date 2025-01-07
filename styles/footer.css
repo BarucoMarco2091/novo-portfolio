@@ -16,8 +16,9 @@ footer .footer-container {
   color: #fff;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 5vh 5vh;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: auto;
   border-top: 0.4px solid #fff;
 }
 footer .footer-title {
@@ -29,12 +30,13 @@ footer p {
 footer p.active {
   border-bottom: 3px solid rgb(78, 225, 160);
 }
-footer a {
+footer i {
   color: #e5e7eb;
   margin-top: 5vh;
   font-size: 1.5rem;
+  transition: color 0.9s;
 }
-footer a:hover i {
+footer i:hover {
   color: rgb(78, 225, 160);
   animation: scaleUp 0.8s ease-in infinite;
 }

@@ -7,12 +7,13 @@
     gap: 20px;
     margin: 5dvh 5dvh;
     max-width: 1240px;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
 
     .new-card-title {
         color: $white;
         font-size: 3rem;
+        margin-top: 4dvh;
         margin-bottom: 4dvh;
     }
 
@@ -23,10 +24,14 @@
 }
 
 #projects {
+    margin-top: 4dvh;
+
     .projects-title {
         color: $white;
         font-size: 3.5rem;
-        margin: 5dvh 5dvh;
+        margin-bottom: 4dvh;
+        max-width: 1240px;
+        margin: auto;
     }
 
     #card-grid-projects,
@@ -36,8 +41,8 @@
         margin: 3dvh 2dvh;
         gap: 5px;
         max-width: 1240px;
-        margin: 0 auto;
-        justify-content: center;
+        margin: auto;
+        justify-content: space-between;
         align-items: center;
         text-align: center;
 
@@ -75,6 +80,7 @@
             .card-link {
                 text-decoration: none;
                 color: $white;
+                transition: color 1s;
             }
 
             .card-link:hover {

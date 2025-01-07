@@ -19,8 +19,9 @@ footer {
         color: $white;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
-        margin: 5vh 5vh;
+        justify-content: space-between;
+        max-width: 1240px;
+        margin: auto;
         border-top: 0.4px solid $white;
     }
 
@@ -36,13 +37,14 @@ footer {
         border-bottom: 3px solid $green;
     }
 
-    a {
+    i {
         color: $secondary;
         margin-top: 5vh;
         font-size: 1.5rem;
+        transition: color .9s;
     }
 
-    a:hover i {
+    i:hover {
         color: $green;
         animation: scaleUp 0.8s ease-in infinite;
     }
