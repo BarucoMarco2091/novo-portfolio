@@ -1,24 +1,26 @@
+AOS.init();
+
 const projectsData = [
     {
         image: "assets/images/comingsoonpage.jpg",
         languages: ["HTML", "CSS", "JavaScript"],
         title: "BASE APPAREL COMING SOON PAGE",
         site: "https://barucomarco2091.github.io/coming-soon-page/",
-        code: "https://github.com/BarucoMarco2091/coming-soon-page"
+        code: "https://github.com/BarucoMarco2091/coming-soon-page",
     },
     {
         image: "assets/images/productlistwithcart.jpg",
         languages: ["HTML", "CSS", "JavaScript"],
         title: "PRODUCT LIST WITH CART",
         site: "https://barucomarco2091.github.io/Product-list-with-cart/",
-        code: "https://github.com/BarucoMarco2091/Product-list-with-cart"
+        code: "https://github.com/BarucoMarco2091/Product-list-with-cart",
     },
     {
         image: "assets/images/sunnyside.jpg",
         languages: ["HTML", "CSS"],
         title: "AGENCY LANDING PAGE",
         site: "https://barucomarco2091.github.io/sunnysidenew/",
-        code: "https://github.com/BarucoMarco2091/sunnysidenew"
+        code: "https://github.com/BarucoMarco2091/sunnysidenew",
     },
     {
         image: "assets/images/clipboard.jpg",
@@ -54,6 +56,13 @@ const projectsData = [
         title: "Art Gallery Website",
         site: "https://art-website-git-main-barucomarco2091s-projects.vercel.app/",
         code: "https://github.com/BarucoMarco2091/art-website",
+    },
+    {
+        image: "assets/images/estetica.jpg",
+        languages: ["HTML", "SCSS"],
+        title: "Beauty Selfcare Page",
+        site: "https://barucomarco2091.github.io/beauty-selfcare-page/",
+        code: "https://github.com/BarucoMarco2091/beauty-selfcare-page",
     },
 ];
 
@@ -92,7 +101,7 @@ function load() {
         const newCardDiv = document.createElement('div');
         newCardDiv.className = 'new-card-div';
         newCardDiv.innerHTML =
-            `
+        `
         <h2 class="new-card-title">${item.technology}</h2>
         <span class="new-card-paragraph">${item.experience}</span>
         `;
@@ -109,7 +118,7 @@ function loadProjects() {
         const card = document.createElement('div');
         card.className = 'card';
         card.innerHTML =
-            `
+        `
         <div class="new-container">
         <img class="card-img" src="${project.image}" alt="${project.title}" loading="lazy">
         </div>
@@ -130,6 +139,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-AOS.init();
+
 
 
