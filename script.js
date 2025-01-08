@@ -64,6 +64,13 @@ const projectsData = [
         site: "https://barucomarco2091.github.io/beauty-selfcare-page/",
         code: "https://github.com/BarucoMarco2091/beauty-selfcare-page",
     },
+    {
+        image: "assets/images/huddle.jpg",
+        languages: ["Angular"],
+        title: "Huddle Landing Page",
+        site: "https://browser-orcin.vercel.app/",
+        code: "https://github.com/BarucoMarco2091/huddle-page",
+    },
 ];
 
 const experienceData = [
