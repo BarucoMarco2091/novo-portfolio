@@ -37,11 +37,11 @@ const projectsData = [
         code: "https://github.com/BarucoMarco2091/insure-landing-page-master",
     },
     {
-        image: "assets/images/pizzaria.jpg",
+        image: "assets/images/restaurant.jpg",
         languages: ["HTML", "SCSS", "JavaScript"],
-        title: "Pizzaria Mauá",
-        site: "https://pizzaria-umber.vercel.app/",
-        code: "https://github.com/BarucoMarco2091/pizzaria",
+        title: "Restaurant Landing Page",
+        site: "https://restaurant-landing-page-taupe.vercel.app/",
+        code: "https://github.com/BarucoMarco2091/restaurant-landing-page",
     },
     {
         image: "assets/images/barbearia.jpg",
