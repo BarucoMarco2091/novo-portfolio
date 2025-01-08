@@ -20,12 +20,14 @@
     margin: auto;
     margin-bottom: 5dvh;
 
-    p {
-        font-size: 2rem;
-    }
-
-    p.active {
-        border-bottom: 3px solid $green;
+    .name {
+        p {
+            font-size: 2rem;
+        }
+    
+        p.active {
+            border-bottom: 3px solid $green;
+        }
     }
 
     .header-icons {
@@ -103,31 +105,3 @@
 }
 
 
-@media screen and (max-width: 768px) {
-    .header-container {
-        display: flex;
-        flex-direction: column;
-        max-width: 100%;
-        width: 100%;
-    }
-
-    p {
-        text-align: center;
-    }
-
-    .header-icons {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 2dvh;
-        margin: 2dvh;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .container {
-        display: flex;
-        text-align: center;
-        max-width: 100%;
-    }
-}

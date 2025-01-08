@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@media screen and (max-width: 768px) {
+  .header-container {
+    display: flex;
+    margin-left: 1dvh 1dvh;
+  }
+  p {
+    text-align: center;
+  }
+  .header-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2dvh;
+    margin: 2dvh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer-container {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-container .footer-icons {
+    gap: 2dvh;
+  }
+}/*# sourceMappingURL=responsivity.css.map */

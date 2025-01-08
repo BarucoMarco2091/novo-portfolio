@@ -23,14 +23,17 @@
 }
 
 #projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: auto;
   margin-top: 4dvh;
 }
 #projects .projects-title {
   color: #fff;
   font-size: 3.5rem;
   margin-bottom: 4dvh;
-  max-width: 1240px;
-  margin: auto;
 }
 #projects #card-grid-projects,
 #projects .card-projects-grid {
@@ -38,10 +41,6 @@
   grid-template-columns: repeat(2, 1fr);
   margin: 3dvh 2dvh;
   gap: 5px;
-  max-width: 1240px;
-  margin: auto;
-  justify-content: space-between;
-  align-items: center;
   text-align: center;
 }
 #projects #card-grid-projects .card,
