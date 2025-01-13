@@ -59,7 +59,7 @@ const projectsData = [
     },
     {
         image: "assets/images/estetica.jpg",
-        languages: ["HTML", "SCSS"],
+        languages: ["HTML", "SCSS", "Bootstrap"],
         title: "Beauty Selfcare Page",
         site: "https://barucomarco2091.github.io/beauty-selfcare-page/",
         code: "https://github.com/BarucoMarco2091/beauty-selfcare-page",
